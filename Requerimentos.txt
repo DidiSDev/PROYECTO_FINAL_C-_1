@@ -1,0 +1,72 @@
+1 ADMINISTRADOR
+GENERAR CLAVE UNICA QUE SE LE DARA TRAS EL PRIMER REGISTRO
+CLAVE CON LA QUE PODRA RECUPERAR LA CONTRASEÑA
+SI SE LE OLVIDA.
+
+	-> IMPORTANTE SI TAMBIEN PIERDE LA CLAVE UNICA, TENDRA UNA SEGUNDA FORMA DE RECUPERAR LA CLAVE, QUE SERÁ A TRAVÉS DEL CORREO ELECTRÓNICO, YO SE LA ENVÍO A UN CORREO ELECTRONICO
+	-> QUE DEBE SER OBLIGATORIAMENTE EL CORREO ELECTRONICO QUE VA A METER LA PRIMERA VEZ QUE ABRA EL PROGRAMA
+
+
+Gestionar BBDD fundacion solidaria
+Firebase es la BBDD
+Debe permitir a usuarios(admins de la fundacion)
+gestionar info sobre donantes, beneficiarios y voluntarios
+integrando elementos como menus, imagenes y sonidos
+
+
+Sonidos e imágenes, elementos multimedia para la interfaz
+de usuario
+
+Menu principal para gestinoar:
+	-donantes
+	-beneficiarios
+	-voluntarios
+
+Sonidos al pulsar en guardar, eliminar u otras cosas
+Imágenes deben representar a la fundacion o proyectos en curso
+Conexion a Firebase debe permitir:
+	-donantes
+	-beneficiarios
+	-voluntarios
+		-registrar
+		-editar
+		-eliminar
+		
+
+interfaz amigable y facil de navegar
+ENTREGA 1: estructura basica
+configurar FIREBASE, conexiones con BBDD
+diseño AXML solo para la principal
+menu con opciones
+
+
+
+PASOS:
+El orden de apertura de la app es una ventana que será MainWindow y que
+dará la bienvenida con efectitos bonitos, con una entrada desde el lateral derecho, estará 3 segundos, se irá al lateral izquierdo y desaparecerá
+1 segundo para entrada, 3 en centro y 1 para salida, al segundo 6, 1 segundo despues de haber salido
+se abrirá la segunda pantalla que será un Login
+tendrá usuario, contraseña y "repetir contraseña" "Registrar", introducir correo electronico, repetir correo electronico ->ESTO LE LLEVARA A OTRA VENTANA DE LOGIN, ESTA VENTANA NUNCA MÁS SE ABRIRÁ
+la contraseña obligatoriamente tiene que tener una mayuscula al menos, una minuscula, un numero y un simbolo especial (por ejemplo: ?)
+ 
+tendrá usuario, contraseña y "Conectar" y "Cambiar contraseña", un checkbox "Recordar" y un botón "recuperar contraseña". cambiar contraseña abrirá otra ventana que ofrecerá 2 opciones:
+	1- Introducir la actual, introducir la nueva, repetir la nueva-> tendrá 3 intentos, si acierta, se le ofrecerá una ventana donde podrá introducir contraseña, repetir contraseña y el boton "cambiar contraseña"
+	2- Introducir correo electronico, SI COINCIDE con el que introdujo la primera vez, se le enviará la clave, en caso contrario, NO.
+
+"Recuperar contraseñ" abrira otra ventana con 2 opciones
+	1- Introducir CLAVE UNICA (3 intentos máximo, al tercero se deshabilitará esta opción), si la acierta, se le ofrece en un TextBox una nueva contraseña de 10 digitos aleatorios (1mayuscula, 1 minuscula y un caracter especial)
+		2- Introducir correo electronico, SI COINCIDE con el que introdujo la primera vez, se le enviará la clave, en caso contrario, NO.
+
+esta opcion 1 en ambas ventanas solamente permitirá recuperar la contraseña de la base de datos metiendo
+la clave que en su momento le dimos la usuario, que es una única clave de 24 digitos aleatorios
+y que debe guardar para siempre, si la pierde no podrá recuperar la contraseña.
+Esa clave se le asignará al usuario solamente una vez, la primera que abre el programa,
+porque esa clave solamente se mostrará al usuario SIEMPRE Y CUANDO NO HAYA NINGÚN ADMINISTRADOR
+EN LA BASE DE DATOS, una vez que ya esté ese administrador, como no va a haber otro, nunca más se mostrará
+la clave
+
+Tras hacer login, tendremos una tercera ventana
+ésta contendrá el menú con "donantes", "beneficiarios", "voluntarios"
+y cada uno de esos 3 tendrá un submenu que será "registrar", "editar", "eliminar".
+
+TABLAS DE LA BBDD, deberá tener 4 en firebase, Administrador, Donantes, Beneficiarios, Voluntarios, 

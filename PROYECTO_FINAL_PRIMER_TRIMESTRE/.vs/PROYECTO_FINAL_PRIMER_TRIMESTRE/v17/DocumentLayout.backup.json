@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\ventanacambiarpass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:ventanacambiarpass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\ventanarecuperarpass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:ventanarecuperarpass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\ventanarecuperarpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:ventanarecuperarpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\firebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:firebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\ventanacambiarpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:ventanacambiarpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\registrarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:registrarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\registrarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:registrarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\generarclaveunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:generarclaveunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|c:\\users\\dilia\\desktop\\interfaces\\proyecto_final_c#\\proyecto_final_primer_trimestre\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381F4320-BAAB-4104-A9E6-349EB1A7F203}|PROYECTO_FINAL_PRIMER_TRIMESTRE.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 337,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ventanaRecuperarPass.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaRecuperarPass.xaml.cs",
+              "RelativeDocumentMoniker": "ventanaRecuperarPass.xaml.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaRecuperarPass.xaml.cs",
+              "RelativeToolTip": "ventanaRecuperarPass.xaml.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwJQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:42:43.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "LoginWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:06:11.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ventanaRecuperarPass.xaml",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaRecuperarPass.xaml",
+              "RelativeDocumentMoniker": "ventanaRecuperarPass.xaml",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaRecuperarPass.xaml",
+              "RelativeToolTip": "ventanaRecuperarPass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T18:42:45.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ventanaCambiarPass.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaCambiarPass.xaml.cs",
+              "RelativeDocumentMoniker": "ventanaCambiarPass.xaml.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaCambiarPass.xaml.cs",
+              "RelativeToolTip": "ventanaCambiarPass.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:01:41.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\LoginWindow.xaml",
+              "RelativeToolTip": "LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T09:34:19.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:52:43.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrarWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\RegistrarWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegistrarWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\RegistrarWindow.xaml.cs",
+              "RelativeToolTip": "RegistrarWindow.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:38:12.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "generarClaveUnica.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\generarClaveUnica.cs",
+              "RelativeDocumentMoniker": "generarClaveUnica.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\generarClaveUnica.cs",
+              "RelativeToolTip": "generarClaveUnica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:12:37.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrarWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\RegistrarWindow.xaml",
+              "RelativeDocumentMoniker": "RegistrarWindow.xaml",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\RegistrarWindow.xaml",
+              "RelativeToolTip": "RegistrarWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T18:33:37.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\Administrador.cs",
+              "RelativeDocumentMoniker": "Administrador.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\Administrador.cs",
+              "RelativeToolTip": "Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:17:07.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Firebase.cs",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\Firebase.cs",
+              "RelativeDocumentMoniker": "Firebase.cs",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\Firebase.cs",
+              "RelativeToolTip": "Firebase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T19:53:19.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ventanaCambiarPass.xaml",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaCambiarPass.xaml",
+              "RelativeDocumentMoniker": "ventanaCambiarPass.xaml",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\ventanaCambiarPass.xaml",
+              "RelativeToolTip": "ventanaCambiarPass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T16:00:02.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dilia\\Desktop\\INTERFACES\\PROYECTO_FINAL_C#\\PROYECTO_FINAL_PRIMER_TRIMESTRE\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T18:52:46.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

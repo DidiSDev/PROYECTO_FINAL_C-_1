@@ -1,0 +1,170 @@
+﻿<Window x:Class="PROYECTO_FINAL_PRIMER_TRIMESTRE.RegistrarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_FINAL_PRIMER_TRIMESTRE"
+        mc:Ignorable="d"
+        Title="Registro de Administrador" Height="800" Width="900" WindowStartupLocation="CenterScreen">
+
+    <!--LOS ESTILOS APLICADOS Y LOS EFECTOS SON EXACTAMENTE LOS MISMOS QUE EN LOGIN, AHÍ ESTÁ EXPLICADO TODO-->
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F3E2A9" Offset="0.0"></GradientStop>
+            <GradientStop Color="#FFF9E6" Offset="1.0"></GradientStop>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <DropShadowEffect x:Key="EfectoSombra" BlurRadius="10" ShadowDepth="5" Opacity="0.5" Color="Black"></DropShadowEffect>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,10"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Effect" Value="{StaticResource EfectoSombra}"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="BorderBrush" Value="LightBlue"></Setter>
+                    <Setter Property="BorderThickness" Value="1"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="Margin" Value="0,0,0,10"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Effect" Value="{StaticResource EfectoSombra}"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="BorderBrush" Value="Aqua"></Setter>
+                    <Setter Property="BorderThickness" Value="1"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,20,0,0"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#7B68EE" Offset="0.0"></GradientStop>
+                        <GradientStop Color="#48D1CC" Offset="1.0"></GradientStop>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Effect" Value="{StaticResource EfectoSombra}"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <TranslateTransform X="0" Y="0"></TranslateTransform>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="Orange" Offset="0.0"></GradientStop>
+                                            <GradientStop Color="SaddleBrown" Offset="1.0"></GradientStop>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" Value="Black"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <Storyboard x:Key="AnimacionEntradaDesdeArriba">
+            <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)" From="-100" To="0" Duration="0:0:1"></DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Key="AnimacionEntradaDesdeIzquierda">
+            <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.X)" From="-300" To="0" Duration="0:0:1"></DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Key="AnimacionEntradaDesdeAbajo">
+            <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)" From="100" To="0" Duration="0:0:1"></DoubleAnimation>
+        </Storyboard>
+    </Window.Resources>
+    <Viewbox Stretch="Uniform">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--LOGO 20 DE TAMAÑO-->
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--LOGO Y TODOS LOS ELEMENTOS HASTA EL BOTON REGISTRAR-->
+            <Image Source="/logo.png" Grid.Row="0" HorizontalAlignment="Center" Width="150" Height="150" Stretch="Uniform" Opacity="0.8"></Image>
+
+            <TextBlock Text="Nombre de Usuario" Grid.Row="2" Margin="0,10,0,5" Foreground="Black" FontSize="18" HorizontalAlignment="Left"></TextBlock>
+            <TextBox Name="CajaUsuario" Grid.Row="3" Height="40" FontSize="16"></TextBox>
+
+            <TextBlock Text="Contraseña" Grid.Row="4" Margin="0,10,0,5" Foreground="Black" FontSize="18" HorizontalAlignment="Left"></TextBlock>
+            <PasswordBox Name="CajaContraseña" Grid.Row="5" Height="40" FontSize="16"></PasswordBox>
+
+            <TextBlock Text="Repetir Contraseña" Grid.Row="6" Margin="0,10,0,5" Foreground="Black" FontSize="18" HorizontalAlignment="Left"></TextBlock>
+            <PasswordBox Name="CajaRepetirContraseña" Grid.Row="7" Height="40" FontSize="16"></PasswordBox>
+
+            <TextBlock Text="Correo Electrónico" Grid.Row="8" Margin="0,10,0,5" Foreground="Black" FontSize="18" HorizontalAlignment="Left"></TextBlock>
+            <TextBox Name="CajaCorreoElectronico" Grid.Row="9" Height="40" FontSize="16"></TextBox>
+
+            <TextBlock Text="Repetir Correo Electrónico" Grid.Row="10" Margin="0,10,0,5" Foreground="Black" FontSize="18" HorizontalAlignment="Left"></TextBlock>
+            <TextBox Name="CajaRepetirCorreoElectronico" Grid.Row="11" Height="40" FontSize="16"></TextBox>
+
+            <TextBlock Grid.Row="12" Height="10"></TextBlock>
+
+            <Border Grid.Row="13" Background="#A0522D" Padding="10" CornerRadius="5" Margin="0,10,0,10">
+                <TextBlock Text="Asegúrese de revisar todos los campos porque una vez pulse sobre el botón registrar esta ventana nunca más volverá a abrirse" 
+                           Foreground="White" 
+                           FontSize="14" 
+                           TextWrapping="Wrap" 
+                           HorizontalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Button Content="Registrar" FontSize="26" Grid.Row="14" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" Click="BotonRegistrar_Click" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TranslateTransform X="-300" Y="0"></TranslateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Loaded">
+                        <BeginStoryboard Storyboard="{StaticResource AnimacionEntradaDesdeIzquierda}"></BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+
+            <TextBlock Grid.Row="15" Height="10"></TextBlock>
+        </Grid>
+    </Viewbox>
+</Window>
